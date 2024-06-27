@@ -1,3 +1,5 @@
+from funciones_CamiloLopez_FPY1101_009V import registrar_libro, prestar_libro, listar_libros, imprimir_reporte_prestamos, salir
+
 def main():
     while True:
         print( '=================================' )
@@ -14,15 +16,15 @@ def main():
         option = input()
 
         if option == '1':
-            print( 'Opción 1 seleccionada' )
+            registrar_libro()
         elif option == '2':
-            print( 'Opción 2 seleccionada' )
+            prestar_libro()
         elif option == '3':
-            print( 'Opción 3 seleccionada' )
+            listar_libros()
         elif option == '4':
-            print( 'Opción 4 seleccionada' )
+           imprimir_reporte_prestamos()
         elif option == '5':
-            print( 'Opción 5 seleccionada' ) 
+            salir() 
             break
         else:
             print( 'Opción no válida. Intente nuevamente' )
