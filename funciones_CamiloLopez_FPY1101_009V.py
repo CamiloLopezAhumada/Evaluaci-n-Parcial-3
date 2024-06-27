@@ -11,4 +11,9 @@ def imprimir_reporte_prestamos():
     print( 'Opción 4: Imprimir reporte de préstamos' )
 
 def salir():
-    print( 'Opción 5: Salir del programa' )
+    print( 'Programa finalizado…' )
+    print( 'Desarrollado por Camilo López' )
+    print( 'RUN: 18.054.436-4' )
+
+
+  
