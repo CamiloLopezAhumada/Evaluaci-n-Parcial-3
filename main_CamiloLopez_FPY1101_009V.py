@@ -11,8 +11,8 @@ def main():
         print( '4. Imprimir reporte de préstamos' )
         print( '5. Salir del programa' )
         print( '---------------------------------' )
-
         print( 'Seleccione una opción:' )
+        
         option = input()
 
         if option == '1':
